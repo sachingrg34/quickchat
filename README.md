@@ -39,7 +39,8 @@ Enable Authentication → Email/Password <br><br>
 
 
 Screenshots 
-<img width="1509" height="823" alt="Screenshot 2026-06-08 125916" src="https://github.com/user-attachments/assets/1c69e53a-7587-4f4f-a834-2f94d6815c5b" />
+<img width="1200" height="800" alt="Screenshot 2026-06-08 125843" src="https://github.com/user-attachments/assets/3421ebe4-a8a8-432a-bb71-74889597f760" />
+
 
 
 <h2>Future Improvements</h2><br>
