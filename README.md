@@ -38,7 +38,7 @@ Download google-services.json<br>
 Enable Authentication → Email/Password <br><br>
 
 
-Screenshots <br>
+Screenshots <br> <br>
 <img width="600" height="300" alt="Screenshot 2026-06-08 125843" src="https://github.com/user-attachments/assets/3421ebe4-a8a8-432a-bb71-74889597f760" />
 
 
