@@ -46,7 +46,21 @@ Code
       ".write": "auth != null"
     },
 
-  },
+   "messages": {
+      ".read": true,
+      ".write": true
+    },
+
+    "typing": {
+      "$sender": {
+        "$receiver": {
+          ".read": true,
+          ".write": true
+        }
+      }
+    }
+  }
+}
 
 Screenshots
 <img width="1509" height="823" alt="Screenshot 2026-06-08 125916" src="https://github.com/user-attachments/assets/1c69e53a-7587-4f4f-a834-2f94d6815c5b" />
