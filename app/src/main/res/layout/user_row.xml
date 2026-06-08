@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <!-- PROFILE PICTURE (LEFT) -->
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/profile_placeholder"
+        android:scaleType="centerCrop"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/profile_picture"
+        android:padding="2dp"/>
+
+    <!-- USERNAME (TOP LEFT) -->
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:textColor="#000"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_toEndOf="@id/imgProfile"
+        android:layout_marginStart="12dp"
+        android:layout_alignTop="@id/imgProfile"/>
+
+    <!-- LAST MESSAGE (BELOW USERNAME) -->
+    <TextView
+        android:id="@+id/txtLastMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#888888"
+        android:textSize="18sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_below="@id/txtName"
+        android:layout_toEndOf="@id/imgProfile"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- TIMESTAMP (RIGHT SIDE) -->
+    <TextView
+        android:id="@+id/txtTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#777777"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/txtName"/>
+
+</RelativeLayout>

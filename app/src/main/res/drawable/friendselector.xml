@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- When selected → show ONLY the image -->
+    <item android:state_selected="true"
+        android:drawable="@drawable/img_size_friend" />
+
+    <!-- When NOT selected → show shape (text visible) -->
+    <item android:drawable="@drawable/nav_btn1" />
+
+</selector>
