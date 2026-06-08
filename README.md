@@ -35,6 +35,7 @@ Create a Firebase project
 Add an Android app with your package name
 Download google-services.json
 Enable Authentication → Email/Password
+
 Create a Realtime Database
 Set rules (for development):
 Code
