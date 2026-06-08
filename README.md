@@ -1,5 +1,6 @@
 <h1 align="center">QuickChat – Real‑Time Mobile Messaging App</h1>
 
+
 <h2>Overview</h2> <br>
 QuickChat is an Android‑based real‑time messaging application designed to provide fast, simple, and reliable one‑to‑one communication. It uses Firebase Authentication for secure login and Firebase Realtime Database for instant message delivery. The app includes features such as user registration, login, user search, typing indicators, timestamps, and message history.
 
