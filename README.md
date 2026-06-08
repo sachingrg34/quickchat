@@ -34,7 +34,7 @@ Build and run the project on an emulator or device<br>
 Create a Firebase project<br>
 Add an Android app with your package name<br>
 Download google-services.json<br>
-Enable Authentication → Email/Password<br>
+Enable Authentication → Email/Password <br><br>
 
 
 Screenshots
