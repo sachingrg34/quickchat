@@ -13,31 +13,31 @@ Message History — Stores and loads previous chats<br>
 Toast Notifications — Confirms when a message is sent<br>
 Clean UI — Simple, intuitive, and responsive chat interface<br>
 
-Technologies Used
-Android (Java/Kotlin)
-Firebase Authentication
-Firebase Realtime Database
-RecyclerView for chat lists
-XML Layouts for UI design
+Technologies Used<br>
+Android (Java/Kotlin)<br>
+Firebase Authentication<br>
+Firebase Realtime Database<br>
+RecyclerView for chat lists<br>
+XML Layouts for UI design<br>
 
 
-How to Run the App
-Install Android Studio
-Clone the repository
-Add your google-services.json file under:
-app/
-Enable Firebase Authentication (Email/Password)
-Set up Firebase Realtime Database in test mode
-Build and run the project on an emulator or device
+How to Run the App<br>
+Install Android Studio<br>
+Clone the repository<br>
+Add your google-services.json file under:<br>
+app/<br>
+Enable Firebase Authentication (Email/Password)<br>
+Set up Firebase Realtime Database in test mode<br>
+Build and run the project on an emulator or device<br>
 
-Firebase Setup
-Create a Firebase project
-Add an Android app with your package name
-Download google-services.json
-Enable Authentication → Email/Password
+Firebase Setup<br>
+Create a Firebase project<br>
+Add an Android app with your package name<br>
+Download google-services.json<br>
+Enable Authentication → Email/Password<br>
 
-Create a Realtime Database
-Set rules (for development):
+Create a Realtime Database<br>
+Set rules (for development):<br>
 Code
 {
   "rules": {
@@ -50,11 +50,11 @@ Screenshots
 <img width="1509" height="823" alt="Screenshot 2026-06-08 125916" src="https://github.com/user-attachments/assets/1c69e53a-7587-4f4f-a834-2f94d6815c5b" />
 
 
-Future Improvements
-Push notifications (FCM)
-Message read receipts
-Profile pictures
-Group chats
-Dark mode
-License
-This project is open‑source. You may modify or distribute it as needed.
+Future Improvements<br>
+Push notifications (FCM)<br>
+Message read receipts<br>
+Profile pictures<br>
+Group chats<br>
+Dark mode<br>
+License<br>
+This project is open‑source. You may modify or distribute it as needed.<br>
