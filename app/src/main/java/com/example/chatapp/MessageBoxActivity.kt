@@ -62,7 +62,7 @@ class MessageBoxActivity : AppCompatActivity() {
         }
 
 
-        // Inside onCreate in MessageBoxActivity.kt
+       
         btnDelete.setOnClickListener {
             val selected = adapter.getSelectedMessages()
 
