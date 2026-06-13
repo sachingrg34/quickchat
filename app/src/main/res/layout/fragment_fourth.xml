@@ -31,7 +31,7 @@
             android:layout_height="140dp"
             android:layout_gravity="center">
 
-            <!-- Profile Picture -->
+       
             <ImageView
                 android:id="@+id/imgProfile"
                 android:layout_width="match_parent"
@@ -41,7 +41,7 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/profile_placeholder" />
 
-            <!-- Upload Button (attached to circle) -->
+         
             <ImageButton
                 android:id="@+id/btnUpload"
                 android:layout_width="45dp"
@@ -80,7 +80,7 @@
             >
 
 
-            <!-- ACCOUNT -->
+          
             <LinearLayout
                 android:id="@+id/rowAccount"
                 android:layout_width="match_parent"
@@ -126,7 +126,7 @@
                 android:layout_marginLeft="50dp"/>
 
 
-            <!-- CHATS -->
+         
             <LinearLayout
                 android:id="@+id/rowChats"
                 android:layout_width="match_parent"
@@ -192,7 +192,7 @@
 
 
 
-            <!-- NOTIFICATIONS -->
+           
             <LinearLayout
                 android:id="@+id/rowNotifications"
                 android:layout_width="match_parent"
@@ -249,7 +249,7 @@
 
 
 
-            <!-- PRIVACY -->
+          
             <LinearLayout
                 android:id="@+id/rowPrivacy"
                 android:layout_width="match_parent"
@@ -316,7 +316,7 @@
 
             </LinearLayout>
 
-            <!-- HELP -->
+         
 
             <LinearLayout
                 android:id="@+id/rowHelp"
