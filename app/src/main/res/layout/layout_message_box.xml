@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF">
 
-    <!-- HEADER BAR -->
+   
     <LinearLayout
         android:id="@+id/headerBar"
         android:layout_width="0dp"
@@ -29,9 +29,7 @@
             android:contentDescription="Back"
             android:src="@drawable/btn_back" />
 
-        <!-- PROFILE PICTURE -->
-
-        <!-- NAME -->
+     
 
         <ImageView
             android:id="@+id/imgProfile"
@@ -62,7 +60,7 @@
             android:contentDescription="Phone Call" />
 
 
-        <!-- VIDEO CALL ICON -->
+      
         <ImageButton
             android:id="@+id/btnVideoCall"
             android:layout_width="65dp"
@@ -81,10 +79,8 @@
             android:padding="5dp"
             android:contentDescription="Delete" />
 
-        <!-- PHONE CALL ICON -->
-
     </LinearLayout>
-    <!-- ⭐ TYPING INDICATOR (correctly constrained) -->
+   
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerMessages"
         android:layout_width="0dp"
@@ -96,7 +92,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
 
-    <!-- TYPING INDICATOR -->
+  
     <TextView
         android:id="@+id/txtTyping"
         android:layout_width="wrap_content"
@@ -107,7 +103,7 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
 
-    <!-- MESSAGE INPUT BAR -->
+
     <LinearLayout
         android:id="@+id/inputBar"
         android:layout_width="0dp"
