@@ -1,17 +1,17 @@
 <resources>
-    <!-- 1. The Style (for the background) -->
+  
     <style name="MyPopupMenu" parent="Widget.AppCompat.PopupMenu">
         <item name="android:popupBackground">@drawable/bg_popup</item>
     </style>
 
-    <!-- 2. The Theme (to be used in code) -->
+
     <style name="MyPopupMenuTheme" parent="Theme.AppCompat.Light">
         <item name="popupMenuStyle">@style/MyPopupMenu</item>
 
-        <!-- ⭐ CHANGE TEXT COLOR HERE ⭐ -->
+    
         <item name="android:textColorPrimary">#FF0000</item>
 
-        <!-- Optional: Change color when item is pressed -->
+       
         <item name="android:colorControlHighlight">#E0E0E0</item>
     </style>
 </resources>
